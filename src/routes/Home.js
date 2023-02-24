@@ -3,7 +3,12 @@ export default function Home(){
     return(
         <div>
             <Navbar></Navbar>
-            <h1>Hello World</h1>
+            <div id="homeContainer">
+                <h1>WikiBeer</h1>
+                <p>
+                    Un espacio para 
+                </p>
+            </div>
         </div>
     )
 }

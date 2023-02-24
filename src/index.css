@@ -31,6 +31,8 @@ code {
   justify-content: space-around;
   border-radius: 7px;
   margin-top: 2%;
+  text-align: center;
+
 }
 
 #navb a{
@@ -40,6 +42,8 @@ code {
   margin: 2%;
   border-radius: 7px;
   text-decoration: none;
+  width: 15%;
+  font-size: 20px;
 }
 
 #mainPage{
@@ -50,10 +54,10 @@ code {
   margin-top: 10%;
   display: flex;
   flex-direction: column;
+  align-items: center ;
   font-family: 'Raleway', sans-serif;
-
-  
-  
+  border-radius: 7px;
+  text-align: justify;
 }
 
 #mainPage p{
@@ -85,4 +89,13 @@ html{
 #mainPage h1{
   color: white;
   margin-bottom: 2%;
+}
+
+#homeContainer{
+  background-color: #27272C;
+  padding: 2%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 5%;
+  border-radius: 7px;
 }
