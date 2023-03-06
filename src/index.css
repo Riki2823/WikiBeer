@@ -99,3 +99,7 @@ html{
   margin: 5%;
   border-radius: 7px;
 }
+
+#homeContainer p{
+  margin-top: 2%;
+}

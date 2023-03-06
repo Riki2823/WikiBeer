@@ -7,7 +7,7 @@ import Home from "./routes/Home";
 import Root from "./routes/Root";
 import MainPage from "./routes/MainPage"
 import ErrorPage from "./routes/ErrorPage";
-
+import AboutUs from "./routes/Aboutus"
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path:"/home",
         element: <Home />
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs />
       }
 
     ]
