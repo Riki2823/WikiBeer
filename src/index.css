@@ -92,7 +92,7 @@ html{
   margin-bottom: 2%;
 }
 
-#homeContainer{
+.ContainerAv{
   background-color: #27272C;
   padding: 2%;
   color: white;
@@ -101,7 +101,7 @@ html{
   border-radius: 7px;
 }
 
-#homeContainer p{
+.ContainerAv p{
   margin-top: 2%;
   font-size: 22px;
 }
@@ -128,3 +128,4 @@ html{
     margin: 5px;
   }
 }
+
