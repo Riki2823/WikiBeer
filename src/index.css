@@ -92,7 +92,7 @@ html{
   margin-bottom: 2%;
 }
 
-.ContainerAv{
+#homeContainer{
   background-color: #27272C;
   padding: 2%;
   color: white;
@@ -114,4 +114,17 @@ html{
   justify-content: space-around;
   padding: 2%;
   color: white;
+}
+
+@media screen and (max-width: 725px) {
+  #navb {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #navb a {
+    width: 90%;
+    margin: 5px;
+  }
 }
