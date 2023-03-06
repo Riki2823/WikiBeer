@@ -129,3 +129,14 @@ html{
   }
 }
 
+.ContainerAv hr{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#rikipera{
+  height: 150px;
+  width: 150px;
+}
+
+
