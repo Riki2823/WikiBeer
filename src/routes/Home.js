@@ -13,7 +13,6 @@ export default function Home(){
                 <p>Nuestra visión para el futuro es montar un local donde los visitantes puedan sumergirse aún más en el mundo de la cerveza y disfrutar de una amplia variedad de cervezas de alta calidad en un ambiente acogedor y relajado.</p>
                 <p>WikiBeer, creemos que la cerveza es mucho más que una simple bebida. Es una forma de vida, una pasión y una cultura que merece ser explorada y disfrutada. ¡Ven y únete a nosotros en nuestra búsqueda para descubrir la cerveza perfecta!</p>
             </div>
-            <Footer></Footer>
         </div>
     )
 }

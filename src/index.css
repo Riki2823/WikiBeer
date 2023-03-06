@@ -134,9 +134,20 @@ html{
   margin-bottom: 2%;
 }
 
-#rikipera{
-  height: 150px;
-  width: 150px;
+.lasFrutis{
+  height: 170px;
+  width: 170px;
 }
 
+.socialMedia{
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+}
 
+.socialMedia img{
+  height: 50px;
+  width: 50px;
+}
