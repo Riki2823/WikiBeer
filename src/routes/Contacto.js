@@ -5,7 +5,7 @@ export default function Contacto() {
         <div>
             <Navbar></Navbar>
 
-            <section class="containerAv">
+            <section className="ContainerAv">
                 <h1>HOLA</h1>
             </section>
         </div>
