@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div>
             <Navbar></Navbar>
-            <div id="homeContainer">
+            <div class="ContainerAv">
                 <h1>WikiBeer</h1>
                 <h2>¡Bienvenidos a WikiBeer!</h2>
                 <p>Somos una empresa fundada en verano del 2023 con la pasión por la cerveza como nuestro motor. Nuestra empresa se dedica a la organización de talleres sobre catas de cerveza, donde los participantes podrán conocer los diferentes tipos de cerveza según su nacionalidad, ingredientes y otras características.</p>
