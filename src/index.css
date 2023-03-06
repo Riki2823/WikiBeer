@@ -91,7 +91,7 @@ html{
   margin-bottom: 2%;
 }
 
-#homeContainer{
+.ContainerAv{
   background-color: #27272C;
   padding: 2%;
   color: white;
@@ -113,4 +113,14 @@ html{
   justify-content: space-around;
   padding: 2%;
   color: white;
+}
+
+.ContainerAv hr{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#rikipera{
+  height: 100px;
+  width: 100px;
 }
