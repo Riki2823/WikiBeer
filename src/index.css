@@ -119,6 +119,8 @@ html{
 @media screen and (max-width: 725px) {
   #navb {
     flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   #navb a {
