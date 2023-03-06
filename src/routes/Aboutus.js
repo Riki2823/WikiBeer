@@ -16,6 +16,12 @@ export default function AboutUs() {
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae velit impedit natus culpa reprehenderit sequi ea, illo aliquam soluta! Corrupti impedit pariatur nulla omnis labore deleniti sapiente repellendus odio quae!
                     </p>
+
+                    <section class="socialMedia">
+                        <a href="https://github.com/Riki2823"><img src={linkedin} alt="githubHugo"></img></a>
+                        <a href="https://twitter.com/"><img src={twitter} alt="githubHugo"></img></a>
+                        <a href="https://www.linkedin.com/in/ricardo-villanueva-31900a210/"><img src={github} alt="githubHugo"></img></a>
+                    </section>
                 </article>
                 <hr></hr>
                 <article>
