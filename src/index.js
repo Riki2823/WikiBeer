@@ -8,6 +8,7 @@ import Root from "./routes/Root";
 import MainPage from "./routes/MainPage"
 import ErrorPage from "./routes/ErrorPage";
 import AboutUs from "./routes/Aboutus"
+import Contacto from "./routes/Contacto"
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -29,8 +30,11 @@ const router = createBrowserRouter([
       {
         path: "/aboutus",
         element: <AboutUs />
+      },
+      {
+        path: "/contactanos",
+        element: <Contacto />
       }
-
     ]
   },
 ]);
