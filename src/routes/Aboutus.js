@@ -44,7 +44,7 @@ export default function AboutUs() {
 
                     <section class="socialMedia">
                         <a href="https://github.com/Riki2823"><img src={linkedin} alt="linkedinRiki"></img></a>
-                        <a href="https://twitter.com/"><img src={twitter} alt="twitterRiki"></img></a>
+                        <a href="https://twitter.com/AlhamaRicardo  "><img src={twitter} alt="twitterRiki"></img></a>
                         <a href="https://www.linkedin.com/in/ricardo-villanueva-31900a210/"><img src={github} alt="githubRiki"></img></a>
                     </section>
                 </article>

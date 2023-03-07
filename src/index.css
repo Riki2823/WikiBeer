@@ -226,12 +226,3 @@ form input[type="submit"]:hover {
   border-style: dashed solid;
   margin-bottom: 2%;
 }
-
-.infoContact a{
-  color: wheat;
-  text-decoration: none;
-}
-
-.infoContact a:hover{
-  text-decoration: underline;
-}
