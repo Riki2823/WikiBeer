@@ -9,6 +9,7 @@ import MainPage from "./routes/MainPage"
 import ErrorPage from "./routes/ErrorPage";
 import AboutUs from "./routes/Aboutus"
 import Contacto from "./routes/Contacto"
+import Cervezoteca from './routes/Cervezoteca';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/contactanos",
         element: <Contacto />
+      },
+      {
+        path: "/cervezas",
+        element: <Cervezoteca/>      
       }
     ]
   },
