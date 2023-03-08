@@ -14,20 +14,20 @@ export default function Contacto() {
                 
                 </div>
                 <form id="contactoF">
-                    <label htmlFor="nombre">Nombre:</label>
-                    <input type="text" id="nombre-alquiler" name="nombre" required/>
+                    <label htmlFor="nombre-alquiler">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre-alquiler" required/>
 
-                    <label htmlFor="correo">Correo electrónico:</label>
-                    <input type="email" id="correo-alquiler" name="correo" required/>
+                    <label htmlFor="correo-alquiler">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo-alquiler" required/>
 
-                    <label htmlFor="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono-alquiler" name="telefono" required/>
+                    <label htmlFor="telefono-alquiler">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono-alquiler" required/>
 
-                    <label htmlFor="asunto">Asunto:</label>
-                    <input type="text" id="asunto-alquiler" name="asunto" required/>
+                    <label htmlFor="asunto-alquiler">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto-alquiler" required/>
 
-                    <label htmlFor="mensaje">Mensaje:</label>
-                    <textarea id="mensaje-alquiler" name="mensaje" required></textarea>
+                    <label htmlFor="mensaje-alquiler">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje-alquiler" required></textarea>
 
                     <input type="submit" value="Enviar"/>
                 </form>
@@ -39,26 +39,26 @@ export default function Contacto() {
                 </div>
 
                 <form>
-                    <label htmlFor="nombre">Nombre:</label>
-                    <input type="text" id="nombre-reserva" name="nombre" required/>
+                    <label htmlFor="nombre-reserva">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre-reserva" required/>
                     
-                    <label htmlFor="correo">Correo electrónico:</label>
-                    <input type="email" id="correo-reserva" name="correo" required/>
+                    <label htmlFor="correo-reserva">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo-reserva" required/>
                     
-                    <label htmlFor="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono-reserva" name="telefono" required/>
+                    <label htmlFor="telefono-reserva">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono-reserva" required/>
                     
-                    <label htmlFor="fecha">Fecha:</label>
-                    <input type="date" id="fecha-reserva" name="fecha" required/>
+                    <label htmlFor="fecha-reserva">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha-reserva" required/>
                     
-                    <label htmlFor="hora">Hora:</label>
-                    <input type="time" id="hora-reserva" name="hora" required/>
+                    <label htmlFor="hora-reserva">Hora:</label>
+                    <input type="time" id="hora" name="hora-reserva" required/>
                     
-                    <label htmlFor="num_personas">Número de Personas:</label>
-                    <input type="number" id="num_personas-reserva" name="num_personas" required/>
+                    <label htmlFor="num_personas-reserva">Número de Personas:</label>
+                    <input type="number" id="num_personas" name="num_personas-reserva" required/>
                     
-                    <label htmlFor="observaciones">Observaciones:</label>
-                    <textarea id="observaciones-reserva" name="observaciones"></textarea>
+                    <label htmlFor="observaciones-reserva">Observaciones:</label>
+                    <textarea id="observaciones" name="observaciones-reserva"></textarea>
                     
                     <input type="submit" value="Enviar"/>
                 </form>
