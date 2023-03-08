@@ -13,6 +13,7 @@ export default function AboutUs() {
                 <article>
                     <h1>Hugo Notario</h1>
                     <img src={melonhugo} alt="melonhugo" class="lasFrutis"></img>
+                    <h2>Profe apruebanos porfa</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae velit impedit natus culpa reprehenderit sequi ea, illo aliquam soluta! Corrupti impedit pariatur nulla omnis labore deleniti sapiente repellendus odio quae!
                     </p>
