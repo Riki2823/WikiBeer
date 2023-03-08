@@ -15,19 +15,19 @@ export default function Contacto() {
                 </div>
                 <form id="contactoF">
                     <label htmlFor="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required/>
+                    <input type="text" id="nombre-alquiler" name="nombre" required/>
 
                     <label htmlFor="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required/>
+                    <input type="email" id="correo-alquiler" name="correo" required/>
 
                     <label htmlFor="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" required/>
+                    <input type="tel" id="telefono-alquiler" name="telefono" required/>
 
                     <label htmlFor="asunto">Asunto:</label>
-                    <input type="text" id="asunto" name="asunto" required/>
+                    <input type="text" id="asunto-alquiler" name="asunto" required/>
 
                     <label htmlFor="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <textarea id="mensaje-alquiler" name="mensaje" required></textarea>
 
                     <input type="submit" value="Enviar"/>
                 </form>
@@ -40,25 +40,25 @@ export default function Contacto() {
 
                 <form>
                     <label htmlFor="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required/>
+                    <input type="text" id="nombre-reserva" name="nombre" required/>
                     
                     <label htmlFor="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required/>
+                    <input type="email" id="correo-reserva" name="correo" required/>
                     
                     <label htmlFor="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" required/>
+                    <input type="tel" id="telefono-reserva" name="telefono" required/>
                     
                     <label htmlFor="fecha">Fecha:</label>
-                    <input type="date" id="fecha" name="fecha" required/>
+                    <input type="date" id="fecha-reserva" name="fecha" required/>
                     
                     <label htmlFor="hora">Hora:</label>
-                    <input type="time" id="hora" name="hora" required/>
+                    <input type="time" id="hora-reserva" name="hora" required/>
                     
                     <label htmlFor="num_personas">Número de Personas:</label>
-                    <input type="number" id="num_personas" name="num_personas" required/>
+                    <input type="number" id="num_personas-reserva" name="num_personas" required/>
                     
                     <label htmlFor="observaciones">Observaciones:</label>
-                    <textarea id="observaciones" name="observaciones"></textarea>
+                    <textarea id="observaciones-reserva" name="observaciones"></textarea>
                     
                     <input type="submit" value="Enviar"/>
                 </form>
