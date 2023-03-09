@@ -1,8 +1,8 @@
 import Navbar from "./Navbar"
-import judas from "../img/judas-beer.webp"
-import delirium from "../img/deliriumN-beer.webp"
-import piast from "../img/piast-beer.webp"
-import cruzcampo from "../img/cruzcampo-beer.webp"
+import judas from "../img/judas-beer-resize.webp"
+import delirium from "../img/deliriumN-beer-resixe.webp"
+import piast from "../img/piast-beer-reside.webp"
+import cruzcampo from "../img/cruzcampo-beer-reside.webp"
 export default function Cervezoteca() {
     return (
         <div>
