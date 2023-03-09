@@ -1,0 +1,7 @@
+[[headers]]
+  for = "/*.js"
+  for = "/*.css"
+  for = "/*.html"
+  for = "/img/*"
+  max-age = "31536000"
+  cache-control = "public"

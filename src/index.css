@@ -126,13 +126,15 @@ html{
 }
 
 #beers > article {
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: fit-content;
   margin-bottom: 50px;
   margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 article img {
